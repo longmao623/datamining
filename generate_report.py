@@ -44,7 +44,7 @@ for table in doc.tables:
                     for r in p.runs:
                         set_font(r, '宋体', 10.5)
             elif txt == '姓    名' and i + 1 < len(row.cells):
-                row.cells[i+1].text = '邓博文'
+                row.cells[i+1].text = 'XXX'
                 for p in row.cells[i+1].paragraphs:
                     for r in p.runs:
                         set_font(r, '宋体', 10.5)
@@ -59,7 +59,7 @@ for table in doc.tables:
                     for r in p.runs:
                         set_font(r, '宋体', 10.5)
             elif txt == '学号' and i + 1 < len(row.cells):
-                row.cells[i+1].text = '2515240104'
+                row.cells[i+1].text = 'BXXXXXXXXX'
                 for p in row.cells[i+1].paragraphs:
                     for r in p.runs:
                         set_font(r, '宋体', 10.5)
@@ -265,6 +265,6 @@ if os.path.exists(img_path):
         set_font(r, '宋体', 9)
 
 # 保存
-output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\2515240104-邓博文-数据挖掘大作业.docx'
+output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\BXXXXXXXXX-XXX-数据挖掘大作业.docx'
 doc.save(output_path)
 print(f"报告已生成: {output_path}")

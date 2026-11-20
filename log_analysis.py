@@ -1,6 +1,6 @@
 """
 数据挖掘期末大作业 - Web日志分析与异常检测
-学号: 2515240104  姓名: 邓博文
+学号: BXXXXXXXXX  姓名: XXX
 """
 import re
 import numpy as np

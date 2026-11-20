@@ -76,13 +76,13 @@ table.cell(0,1).text = '数据挖掘'
 table.cell(0,2).text = '实验名称'
 table.cell(0,3).text = 'Web日志分析与异常检测'
 
-# 第二行：姓名 | 邓博文 | 成绩 | (空)
+# 第二行：姓名 | XXX | 成绩 | (空)
 table.cell(1,0).text = '姓    名'
-table.cell(1,1).text = '邓博文'
+table.cell(1,1).text = 'XXX'
 table.cell(1,2).text = '成    绩'
 table.cell(1,3).text = ''
 
-# 第三行：专业 班级（合并）| 数据科学与大数据技术 | 1班 | 学号 日期（合并）| 2515240104 | 2026年7月
+# 第三行：专业 班级（合并）| 数据科学与大数据技术 | 1班 | 学号 日期（合并）| BXXXXXXXXX | 2026年7月
 table.cell(2,0).text = '专业'
 table.cell(2,1).text = '数据科学与大数据技术'
 table.cell(2,2).text = '班级'
@@ -90,7 +90,7 @@ table.cell(2,3).text = '1班'
 
 # 第四行
 table.cell(3,0).text = '学号'
-table.cell(3,1).text = '2515240104'
+table.cell(3,1).text = 'BXXXXXXXXX'
 table.cell(3,2).text = '日期'
 table.cell(3,3).text = '2026年7月'
 
@@ -297,6 +297,6 @@ if os.path.exists(img_path):
     set_run_font(run, '宋体', 9)
 
 # 保存
-output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\2515240104-邓博文-数据挖掘大作业.docx'
+output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\BXXXXXXXXX-XXX-数据挖掘大作业.docx'
 doc.save(output_path)
 print(f"报告已生成: {output_path}")

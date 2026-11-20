@@ -41,7 +41,7 @@ p.runs[1].text = '  Web日志分析与异常检测'
 # 段落11: 姓名
 p = doc.paragraphs[11]
 p.runs[0].text = '姓    名'
-p.runs[1].text = ' 邓博文'
+p.runs[1].text = ' XXX'
 
 # 段落12: 成绩（保持空白）
 
@@ -49,7 +49,7 @@ p.runs[1].text = ' 邓博文'
 clear_and_fill(doc.paragraphs[15], '专业     数据科学与大数据技术')
 
 # 段落16: 学号
-clear_and_fill(doc.paragraphs[16], '学号  2515240104')
+clear_and_fill(doc.paragraphs[16], '学号  BXXXXXXXXX')
 
 # 段落17: 日期
 clear_and_fill(doc.paragraphs[17], '日期   2026年7月')
@@ -115,6 +115,6 @@ clear_and_fill(doc.paragraphs[114], '')
 clear_and_fill(doc.paragraphs[115], '图1 实验分析结果汇总（状态码分布、标签分布、KNN混淆矩阵、K值选择、聚类散点图、特征重要性）')
 
 # ===== 保存 =====
-output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\2515240104-邓博文-数据挖掘大作业.docx'
+output_path = r'C:\Users\dbw\.openclaw\workspace\大作业\BXXXXXXXXX-XXX-数据挖掘大作业.docx'
 doc.save(output_path)
 print(f"报告已生成: {output_path}")
